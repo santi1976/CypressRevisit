@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  },
+  "scripts": {
+    "cy:runchrome": "cypress run -b chrome",
+    "cy:runfirefox": "cypress run -b firefox",
+    "cy:runedge": "cypress run -b edge",
+    "cy:runall": "npm run cy:runchrome && npm run cy:runfirefox && npm run cy:runedge"
+  }
+}
