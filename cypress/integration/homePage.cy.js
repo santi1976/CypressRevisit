@@ -1,7 +1,7 @@
-describe('Visit Home Page ', () => {
+describe('Visit Home Page and navigates to Cursos ', () => {
   it('The Home page navigates to Cursors', () => {
     cy.visit('https://www.freerangetesters.com/');
-    cy.get('#comp-l02x1m8d2 > .ppRL_Y > .cYOPqd > div').click(); // Click on Cursors
+    cy.get('#comp-l02x1m8d2 > .ppRL_Y > .cYOPqd > div').click(); // Click on Cursos
   });
 
   it('Closes the modal', () => {
